@@ -8,5 +8,12 @@ char x;
 
 printf("Is it the weekend?");
 scanf("%c", &x);
-printf("It doesn't matter when it is, he always hates you!\n");
+  if(x=='y' || x=='Y')
+  {
+  printf("He hates you alot\n"); }
+
+ else
+{
+ printf("He hates you a little\n");
+}
 }
