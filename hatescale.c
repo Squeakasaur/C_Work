@@ -12,8 +12,12 @@ scanf("%c", &x);
   {
   printf("He hates you alot\n"); }
 
- else
+ else if
+ (x=='n' || x=='N')
 {
- printf("He hates you a little\n");
+  scanf("%c", &x);
+  printf("Is it early morning?\n");
 }
+
+
 }
