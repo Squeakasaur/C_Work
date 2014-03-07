@@ -16,17 +16,14 @@ int main(void)
 	}
 
 	else if
-		(x=='n' || x=='N')
-		{
-			scanf("%c", &x);
-			printf("Is it early morning?\n");
-		}
+	(x=='n' || x=='N')
+	{
+		scanf("%c", &x);
+		printf("Is it early morning?\n");
+	}
 	else
-		(x=='a' || x=='A')
-			;
 	{
 		printf("Please respond with Y or N\n");
-
 	} 
 }
 
