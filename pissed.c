@@ -12,11 +12,16 @@ int main(void)
 	{
 
 		f=read_char("Are you using vi?");
-			if(tolower(f)=='y')
-			{
-				printf("scroll using the down arrow. Do not use :line#\n");
-				break;
-			}
+		if(tolower(f)=='y')
+		{
+			printf("scroll using the down arrow. Do not use :line#\n");
+			break;
+		}
+
+		else if(tolower(f)=='n')
+			printf("wait till about 11pm on Sunday and start panicing about homework. He will given and help you but then basically tell you, you suck.\n");
+            break;
+
 	}
 
 }
