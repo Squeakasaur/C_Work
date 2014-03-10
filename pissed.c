@@ -19,8 +19,8 @@ int main(void)
 		}
 
 		else if(tolower(f)=='n')
-		{	printf("wait till about 11pm on Sunday and start panicking about homework. He will given and help you but then basically tell you, you suck.\n");
-            break;
+		{	printf("wait till about 11pm on Sunday and start panicking about homework. He will give in and help you but then basically tell you, you suck.\n");
+			break;
 		}
 
 		else if(tolower(f)=='e')
