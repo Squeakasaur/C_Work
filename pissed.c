@@ -1,7 +1,7 @@
 /* Ways to piss off matt*/
 
 #include <stdio.h>
-
+#include <stdlib.h>
 
 char read_char(char *);
 int main(void)
@@ -19,9 +19,14 @@ int main(void)
 		}
 
 		else if(tolower(f)=='n')
-			printf("wait till about 11pm on Sunday and start panicing about homework. He will given and help you but then basically tell you, you suck.\n");
+		{	printf("wait till about 11pm on Sunday and start panicking about homework. He will given and help you but then basically tell you, you suck.\n");
             break;
+		}
 
+		else if(tolower(f)=='e')
+		{
+			exit(0);
+		}
 	}
 
 }
