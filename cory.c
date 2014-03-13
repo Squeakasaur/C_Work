@@ -7,7 +7,7 @@ int main(void){
 
 	char read_char(char *); 
 	char c;
-	while(1){
+	
 
 		c=read_char("Is his name cory?");
 		{
@@ -27,7 +27,7 @@ int main(void){
 
 	}
 
-}
+
 char read_char (char * message)
 {
 	char ch;
